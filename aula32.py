@@ -33,10 +33,9 @@ Bom dia 0-11, Boa tarde 12-17 e Boa noite 18-23.
 
 # entrada = input('Digite quais horas são: ')
 
-# entrada_int = int(entrada)
 
 # try:
-
+#     entrada_int = int(entrada)
 #     if entrada_int <= 11:
 #         print('Bom dia!!')
 #     elif entrada_int <= 17:
