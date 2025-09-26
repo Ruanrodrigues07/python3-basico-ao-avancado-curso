@@ -6,6 +6,8 @@ Exiba os índices da lista
 2 Luiz
 """
 lista = ['Maria', 'Helena', 'Luiz']
+lista.append('João')
+
 indices = range(len(lista))
 
 for indice in indices:
