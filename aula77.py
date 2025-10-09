@@ -52,6 +52,5 @@ for pergunta in perguntas:
 
     print()
 
-    print(f'Você acertou {qtd_acertos}')
-    print(f'de {len(perguntas)} perguntas')
-
+print(f'Você acertou {qtd_acertos}')
+print(f'de {len(perguntas)} perguntas')
