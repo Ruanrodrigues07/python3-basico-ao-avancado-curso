@@ -29,11 +29,11 @@
 # Métodos úteis:
 # add, update, clear, discard
 s1 = set()
-s1.add('Luiz')
-s1.add(1)
-s1.update(('Olá mundo', 1, 2, 3, 4))
-# s1.clear()
-s1.discard('Olá mundo')
+s1.add('Luiz') #.add para set, adiciona somente um argumento ao conjunto
+s1.add(1) 
+s1.update(('Olá mundo', 1, 2, 3, 4)) #update permite adicionar mais de um argumento ao conjunto.
+# s1.clear() método clear() remove todos os elementos de um set, deixando-o vazio.
+s1.discard('Olá mundo') # método discart() remove o argumento que é passado.
 s1.discard('Luiz')
 # print(s1)
 
